@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const AUTH_KEY = "LITAL_SECRET_91fj02LKJ2093lktyuicvb234edft67uj4"; 
+  const AUTH_KEY = "lital_secret_key"; 
   const providedKey = req.query.key;
 
   if (providedKey !== AUTH_KEY) {
