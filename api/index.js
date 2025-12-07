@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     return res.status(403).json({ error: "Unauthorized" });
   }
 
-  const TARGET_URL = "https://script.google.com/macros/s/AKfycbyTONblOAdAleFSzDoBW4cQbuD9v2_eJkDkcYzceTJIC_hDONT9YkPP4ZH3-oDcjDdyKQ/exec";
+  const TARGET_URL = "https://script.google.com/macros/s/AKfycbw3O_DtumMbtKbSu4Y3FU3kEp5RZ0zPxU2tqKdQvyORTTkBgW_GA4bMWIEXBlvXW5C5ag/exec";
 
   try {
     const response = await fetch(TARGET_URL, {
