@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const AUTH_KEY = "lital_secret_key"; 
-  const providedKey = req.query.key;
+  const providedKey = req.headers["x-api-key"];
 
   if (providedKey !== AUTH_KEY) {
     return res.status(403).json({ error: "Unauthorized" });
