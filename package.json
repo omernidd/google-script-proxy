@@ -1,0 +1,7 @@
+{
+  "name": "google-script-proxy",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "license": "MIT",
+  "dependencies": {}
+}
